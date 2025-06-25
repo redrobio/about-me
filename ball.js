@@ -10,7 +10,7 @@ function moveBall() {
     ball.style.position = "absolute";
     ball.style.width = "50px";
     ball.style.height = "50px";
-    ball.style,backgroundColor = "red";
+    ball.style.backgroundColor = "red";
     ball.style.borderRadius = "50%";
 
     requestAnimationFrame(moveBall);
