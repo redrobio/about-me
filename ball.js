@@ -7,15 +7,15 @@ function moveBall() {
     ball.style.left = `${x}px`;
     ball.style.top = `${y}px`;
 
+    ball.style.position = "absolute";
+    ball.style.width = "50px";
+    ball.style.heigh = "50px";
+    ball.style,backgroundColor = "red";
+    ball.style.borderRadius = "50%";
+
     requestAnimationFrame(moveBall);
 }
 
-ball.style.position = "absolute";
-ball.style.width = "50px";
-ball.style.heigh = "50px";
-ball.style,backgroundColor = "red";
-ball.style.borderRadius = "50%";
-
 requestAnimationFrame(moveBall);
 
-// document.body.style.backgroundColor = "purple";
+document.body.style.backgroundColor = "purple";
