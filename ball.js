@@ -7,6 +7,9 @@ function moveBall() {
     ball.style.left = `${x}px`;
     ball.style.top = `${y}px`;
 
+    requestAnimationFrame(moveBall);
+}
+
     ball.style.position = "absolute";
     ball.style.width = "50px";
     ball.style.height = "50px";
@@ -14,8 +17,3 @@ function moveBall() {
     ball.style.borderRadius = "50%";
 
     requestAnimationFrame(moveBall);
-}
-
-requestAnimationFrame(moveBall);
-
-// document.body.style.backgroundColor = "purple";
