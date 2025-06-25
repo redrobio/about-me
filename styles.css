@@ -1,0 +1,17 @@
+body {
+    background: powderblue;
+    padding: 20px;
+}
+h1 {
+    font-size: 32px;
+}
+p {
+    font-size: 24px;
+    margin: 0;
+}
+p+p {
+    margin-top: 5px;
+}
+strong {
+    font-weight: 600;
+}
